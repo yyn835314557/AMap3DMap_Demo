@@ -1,11 +1,11 @@
-#*高德地图的使用方法(参照高德地图开发者文档)：*#
+#** 高德地图的使用方法(参照高德地图开发者文档): **#
 ##1.进入项目，touch podfile 
 	platform :ios, '8.0' #手机的操作系统 
 	pod 'AMap3DMap'
-  #pod 'AMap2DMap'
-	#pod 'AMap3DMap', '2.4.0'
-	#退回原来老的版本'2.4.0'
-  #两个中选择一个，不能同时使用
+	\#pod 'AMap2DMap'
+	\#pod 'AMap3DMap', '2.4.0'
+	\#退回原来老的版本'2.4.0'
+  	\#两个中选择一个，不能同时使用
 	pod 'AMapSerch' 
 
 pod install
