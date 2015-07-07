@@ -1,5 +1,5 @@
-高德地图的使用方法(参照高德地图开发者文档)：
-1.进入项目，touch podfile 
+#*高德地图的使用方法(参照高德地图开发者文档)：*#
+##1.进入项目，touch podfile 
 	platform :ios, '8.0' #手机的操作系统 
 	pod 'AMap3DMap'
   #pod 'AMap2DMap'
@@ -9,7 +9,7 @@
 	pod 'AMapSerch' 
 
 pod install
-open the project (xcworkingspace)
+open the project (xcworkingspace)##
 
 2.create Swift-Bridging-Header.h file
 Build Settings -> Swift Compiler - code Generation ->Objective-C Bridging Header(...Swift-Bridging-Header.h)
