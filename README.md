@@ -1,4 +1,4 @@
-#** 高德地图的使用方法(参照高德地图开发者文档): **#
+# 高德地图的使用方法(参照高德地图开发者文档): #
 ##1.进入项目，touch podfile 
 	platform :ios, '8.0' #手机的操作系统 
 	pod 'AMap3DMap'
@@ -8,14 +8,15 @@
   	\#两个中选择一个，不能同时使用
 	pod 'AMapSerch' 
 
-pod install
-open the project (xcworkingspace)##
+编写完后 在terminal中: 
+	pod install
+等待几秒后就可以open the project (xcworkingspace)
 
-2.create Swift-Bridging-Header.h file
+##2.create Swift-Bridging-Header.h file##
 Build Settings -> Swift Compiler - code Generation ->Objective-C Bridging Header(...Swift-Bridging-Header.h)
-3.apply for apiKey.
+##3.apply for apiKey.##
 
-4.display the map
+##4.display the map##
 
 let apiKey  = ""
 class ViewController:UIViewController,MAMapViewDelegate
@@ -23,7 +24,7 @@ var mapView:MAMapView?
 
 MAMapServices.sharedServices().apiKey = apiKey
 mapView = MAMapView(frame:self.view.bounds);mapView!.delegate = self;self.view.addSubview(mapView!)
-5.逆地理编码查询
+##5.逆地理编码查询##
 
 逆地理编码是高德提供的众多服务中的一种，被广泛用于iOS的LBS应用。实现逆地理编码查询功能需要搜索SDK（AMapSearchKit.framework）。
 
