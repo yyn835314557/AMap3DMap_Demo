@@ -1,4 +1,6 @@
-# 高德地图的使用方法(参照高德地图开发者文档): #
+# 高德地图的使用方法[参照高德地图开发者文档]: 
+[参照高德地图开发者文档]:http://lbs.amap.com/api/ios-sdk/guide/introduction/
+#
 ##1.进入项目，touch podfile 
 	platform :ios, '8.0' #手机的操作系统 
 	pod 'AMap3DMap'
